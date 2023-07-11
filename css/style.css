@@ -234,7 +234,7 @@ svg {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
   section {
     font-size: 75%;
   }
@@ -249,9 +249,8 @@ svg {
     height: 27px;
   }
   .banner {
-    width: 375px;
-    height: 200px;
-    padding-left: 15px;
+    width: 400px;
+    height: 130px;
   }
   .banner h2 {
     font-size: 75%;
@@ -259,5 +258,29 @@ svg {
     z-index: 1;
     padding: 13px 17px;
     border: 2px solid #fff;
+  }
+}
+
+@media (max-width: 345px) {
+  .banner {
+    width: 30vh;
+  }
+  .banner h2 {
+    font-size: 75%;
+    color: #fff;
+    z-index: 1;
+    padding: 13px 17px;
+    border: 2px solid #fff;
+  }
+  .banner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(93, 109, 126, 0.4);
+    padding-left: 20px;
   }
 }
