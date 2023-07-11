@@ -232,6 +232,14 @@ svg {
     margin-left: 70px;
   }
   html header ul li {
-    font-size: 25%;
+    font-size: 45%;
+  }
+  header h1 img {
+    width: 280px;
+    height: 27px;
+  }
+  .banner {
+    width: 375px;
+    height: 200px;
   }
 }
