@@ -56,8 +56,12 @@ header ul {
 header ul li {
   display: inline-block;
 }
+
 header ul li a {
-  padding: 25px 20px;
+  padding-top: 17px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
   display: inline-block;
 }
 header ul li a:hover {
@@ -95,6 +99,12 @@ header ul li a:hover {
 }
 section {
   padding: 50px 0;
+}
+section .label p {
+  width: 100%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
 }
 section h3 {
   text-align: center;
@@ -156,7 +166,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
