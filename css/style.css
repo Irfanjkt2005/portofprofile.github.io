@@ -251,5 +251,13 @@ svg {
   .banner {
     width: 375px;
     height: 200px;
+    padding-left: 20px;
+  }
+  .banner h2 {
+    font-size: 75%;
+    color: #fff;
+    z-index: 1;
+    padding: 13px 17px;
+    border: 2px solid #fff;
   }
 }
